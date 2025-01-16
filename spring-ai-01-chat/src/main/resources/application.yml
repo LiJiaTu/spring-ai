@@ -1,0 +1,6 @@
+spring:
+  ai:
+    openai:
+#      base-url: https://api.openai.com/v1
+      base-url: https://api.openai-proxy.com/
+      api-key: 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
