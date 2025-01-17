@@ -23,3 +23,12 @@ https://docs.spring.io/spring-ai/reference/api/image/openai-image.html
 详细外链接地址：
 https://www.yuque.com/alipayay3frwkcw1/argbpl/vtgtbpezu2zs23lq/edit?toc_node_uuid=Ji2Z8YVz2WlS8Cw2#rvfgh
 
+## 3.集成openai音频翻译模型
+参考地址：
+https://docs.spring.io/spring-ai/reference/api/audio/transcriptions/openai-transcriptions.html
+
+模块：spring-ai-03-audio
+
+详细外链接地址：
+https://www.yuque.com/alipayay3frwkcw1/argbpl/vtgtbpezu2zs23lq/edit?toc_node_uuid=Ji2Z8YVz2WlS8Cw2#rvfgh
+

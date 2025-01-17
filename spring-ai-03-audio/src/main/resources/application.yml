@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: spring-ai-03-audio
+  ai:
+    openai:
+      base-url: ${openai.url}
+      api-key: ${openai.api-key}
