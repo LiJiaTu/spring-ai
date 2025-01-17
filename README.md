@@ -32,6 +32,12 @@ https://docs.spring.io/spring-ai/reference/api/audio/speech/openai-speech.html
 
 模块：spring-ai-04-tts
 
+## 3.多模态模型
+参考地址：
+https://docs.spring.io/spring-ai/reference/api/chat/openai-chat.html#_multimodal
+
+模块：spring-ai-05-multi
+
 详细外链接地址：
 https://www.yuque.com/alipayay3frwkcw1/argbpl/vtgtbpezu2zs23lq/edit?toc_node_uuid=Ji2Z8YVz2WlS8Cw2#rvfgh
 
