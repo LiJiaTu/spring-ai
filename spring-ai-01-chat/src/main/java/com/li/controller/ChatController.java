@@ -1,7 +1,5 @@
 package com.li.controller;
 
-import org.springframework.ai.chat.model.ChatResponse;
-import org.springframework.ai.chat.prompt.ChatOptions;
 import org.springframework.ai.chat.prompt.Prompt;
 import org.springframework.ai.openai.OpenAiChatModel;
 import org.springframework.ai.openai.OpenAiChatOptions;
@@ -17,7 +15,7 @@ import reactor.core.publisher.Flux;
  * @create: 2025-01-16 14:19
  **/
 @RestController
-public class CharController {
+public class ChatController {
 
     @Autowired
     private OpenAiChatModel openAiChatModel;
@@ -41,11 +39,10 @@ public class CharController {
      */
     @RequestMapping("/ai/chat2")
     public Object chat2(@RequestParam(value = "prompt") String prompt) {
-        ChatResponse chatResponse = openAiChatModel.call(new Prompt(prompt, OpenAiChatOptions.builder()
+        return openAiChatModel.call(new Prompt(prompt, OpenAiChatOptions.builder()
                 .withModel("gpt-4o")
                 .withTemperature(0.4)
                 .build()));
-        return chatResponse;
     }
 
     /**
@@ -56,7 +53,6 @@ public class CharController {
      */
     @RequestMapping("/ai/chat3")
     public Flux<String> chat3(@RequestParam(value = "prompt") String prompt) {
-        Flux<String> flux = openAiChatModel.stream(prompt);
-        return flux;
+        return openAiChatModel.stream(prompt);
     }
 }
