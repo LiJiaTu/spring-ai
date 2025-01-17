@@ -41,3 +41,18 @@ https://docs.spring.io/spring-ai/reference/api/chat/openai-chat.html#_multimodal
 详细外链接地址：
 https://www.yuque.com/alipayay3frwkcw1/argbpl/vtgtbpezu2zs23lq/edit?toc_node_uuid=Ji2Z8YVz2WlS8Cw2#rvfgh
 
+## Ollama
+私有化本地部署大模型并进行访问。
+
+官网地址：
+https://ollama.ai/
+
+![ollama官网.png](img/ollama官网.png)
+
+参考地址：
+https://www.yuque.com/alipayay3frwkcw1/argbpl/kg6xwgshs5bdz93r/edit?toc_node_uuid=Ji2Z8YVz2WlS8Cw2
+
+模块：spring-ai-06-ollama
+
+
+
