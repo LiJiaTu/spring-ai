@@ -1,6 +1,6 @@
 spring:
   application:
-    name: spring-ai-01-chat
+    name: spring-ai-02-image
   ai:
     openai:
       base-url: ${openai.url}
